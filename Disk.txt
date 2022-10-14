@@ -1,0 +1,17 @@
+PID 3
+PState Blocked
+PC 6
+MinAdder 0
+MaxAdder 19
+inst semWait userInput
+inst assign a input
+inst semSignal userInput
+inst semWait file
+inst assign b readFile a
+inst semSignal file
+inst semWait userOutput
+inst print b
+inst semSignal userOutput
+Var1 null
+Var2 null
+Var3 null
